@@ -1,0 +1,35 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: hwb(147 27% 17%); /* Cambiar este valor al color que prefieras */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos específicos para la lista de animales */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Estilos para hacer la página responsive */
+@media only screen and (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+}
